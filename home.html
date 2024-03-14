@@ -4,25 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Acme Filmes</title>
+    <title>Document</title>
     <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
           }
         }
-      }
-    }
-  </script>
+      </script>
 </head>
-<body class="bg-black">
-   <header class="w-full h-36 flex justify-between">
-        <img class="" src="./img/tracos.png" alt="">
-        <img src="./img/logo.png" alt="">
-        <img src="./img/perfil.png" alt="">
-    </header>
-   <main></main>
+
+
+<body class="bg-black p-8">
+    <head>
+        <div class="flex justify-between">
+          <div>
+            <img src="./img/options.png" alt="">
+          </div>
+            <img src="./img//logo.png" alt="">
+            <img src="./img/perfil.png" alt="">
+        </div>
+    </head>
+
+
+    <main>  
+
+        <div>
+          <img class="static object-cover h-80 w-full" src="./img/destaque.png">
+        </div>
+
+
+        <div class="absolute bottom-9">
+          <p class="text-center text-white">Harry Potter e a pedra filosofal</p>
+          <div class=" flex flex-row">
+            <img class="bg-white" src="./img/info.png" alt="">
+            <button class="bg-white">IFORMAÇÕES</button>
+          </div>
+       </div>
+      
+        
+       
+        <div>
+            <p class="text-left text-white">BEM-VINDO A ACME FILMES!!</p>
+        </div>
+        <div class="flex space-x-20">
+          <img src="./img/filme1.png" alt="">
+          <img src="./img/filmes2.png" alt="">
+          <img src="./img/filme3.png" alt="">
+          <img src="./img/FILME4.png" alt="">
+          <img src="./img/FILME5.png" alt="">
+          <img src="./img//FILME6.png" alt="">
+        </div>
+    </main>
+    
 </body>
 </html>
